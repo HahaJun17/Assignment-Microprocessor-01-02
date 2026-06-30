@@ -120,9 +120,6 @@ HD44780_PrintStr("Learning STM32 with LCD is fun :-)");
 int x;
 for(int x=0; x<40; x=x+1)
 
-26/05/2026, 5:10 PM
-Page 6 of 14
-
 {
 HD44780_ScrollDisplayLeft(); //HD44780_ScrollDisplayRight();
 HAL_Delay(500);
