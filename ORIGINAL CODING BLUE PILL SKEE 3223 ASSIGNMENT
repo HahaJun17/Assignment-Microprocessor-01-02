@@ -63,9 +63,6 @@ readValue = HAL_ADC_GetValue(&hadc1);
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 0);
 if (readValue > 3200)
 
-26/05/2026, 5:00 PM
-Page 5 of 11
-
 {
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, 0);
